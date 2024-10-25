@@ -1,0 +1,63 @@
+/* Calculator Container */
+div {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  width: 220px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Calculator Title */
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Input Box */
+input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: right;
+}
+
+/* Button Grid */
+div button {
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Grid Layout */
+button-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+button-container button:hover {
+  background-color: #ccc;
+}
+
+/* Clear Button Style */
+button:last-child {
+  background-color: #f66;
+}
+
+button:last-child:hover {
+  background-color: #e55;
+}
+
+/* Result Text */
+p {
+  font-size: 18px;
+  margin-top: 10px;
+}
