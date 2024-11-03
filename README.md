@@ -41,10 +41,7 @@ To start the project, it is necessary to download the files from the github repo
 
 [Back To The Top]
 
----
 
-## References
 
-I made this project with the help of Jonas Schmedtmann in the React course: [React course](https://www.udemy.com/course/the-ultimate-react-course/)
 
 [Back To The Top](#fast-react-pizza-co.)
